@@ -14,6 +14,11 @@
 		AD358AB11CFC2CBD00AF937D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD358AB01CFC2CBD00AF937D /* Assets.xcassets */; };
 		AD358AB41CFC2CBD00AF937D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD358AB21CFC2CBD00AF937D /* LaunchScreen.storyboard */; };
 		AD358ABF1CFC2CBD00AF937D /* RemoteBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD358ABE1CFC2CBD00AF937D /* RemoteBridgeTests.m */; };
+		ADE616C81CFF08F4002B7F85 /* TEBackdoorInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE616C71CFF08F4002B7F85 /* TEBackdoorInvocation.m */; };
+		ADE616CB1CFF094B002B7F85 /* TEBackdoorService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE616CA1CFF094B002B7F85 /* TEBackdoorService.m */; };
+		ADE616CE1CFF0958002B7F85 /* TEBackdoorConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE616CD1CFF0958002B7F85 /* TEBackdoorConnection.m */; };
+		B5620C4E8B7C80273A37C019 /* libPods-RemoteBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 380102C5B86B3C733358ADD9 /* libPods-RemoteBridge.a */; };
+		D90A63148B954E00CDA7C250 /* libPods-RemoteBridgeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00226CF3A2EE458C37F5CE8A /* libPods-RemoteBridgeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00226CF3A2EE458C37F5CE8A /* libPods-RemoteBridgeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RemoteBridgeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		216E9995673E08A6B158EEA7 /* Pods-RemoteBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBridge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBridge/Pods-RemoteBridge.debug.xcconfig"; sourceTree = "<group>"; };
+		380102C5B86B3C733358ADD9 /* libPods-RemoteBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RemoteBridge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9736239BECCDB593FC3E479E /* Pods-RemoteBridgeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBridgeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBridgeTests/Pods-RemoteBridgeTests.release.xcconfig"; sourceTree = "<group>"; };
 		AD358AA11CFC2CBD00AF937D /* RemoteBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD358AA51CFC2CBD00AF937D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD358AA71CFC2CBD00AF937D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +49,14 @@
 		AD358ABA1CFC2CBD00AF937D /* RemoteBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD358ABE1CFC2CBD00AF937D /* RemoteBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteBridgeTests.m; sourceTree = "<group>"; };
 		AD358AC01CFC2CBD00AF937D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE616C61CFF08F4002B7F85 /* TEBackdoorInvocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEBackdoorInvocation.h; sourceTree = "<group>"; };
+		ADE616C71CFF08F4002B7F85 /* TEBackdoorInvocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEBackdoorInvocation.m; sourceTree = "<group>"; };
+		ADE616C91CFF094B002B7F85 /* TEBackdoorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEBackdoorService.h; sourceTree = "<group>"; };
+		ADE616CA1CFF094B002B7F85 /* TEBackdoorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEBackdoorService.m; sourceTree = "<group>"; };
+		ADE616CC1CFF0958002B7F85 /* TEBackdoorConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEBackdoorConnection.h; sourceTree = "<group>"; };
+		ADE616CD1CFF0958002B7F85 /* TEBackdoorConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEBackdoorConnection.m; sourceTree = "<group>"; };
+		B7969A2FA752A36434A18D4A /* Pods-RemoteBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBridge.release.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBridge/Pods-RemoteBridge.release.xcconfig"; sourceTree = "<group>"; };
+		C54C2B3F5DD83CB0177D3AB0 /* Pods-RemoteBridgeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RemoteBridgeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RemoteBridgeTests/Pods-RemoteBridgeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5620C4E8B7C80273A37C019 /* libPods-RemoteBridge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +72,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90A63148B954E00CDA7C250 /* libPods-RemoteBridgeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		133FA4E0B752997D3BC616FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				216E9995673E08A6B158EEA7 /* Pods-RemoteBridge.debug.xcconfig */,
+				B7969A2FA752A36434A18D4A /* Pods-RemoteBridge.release.xcconfig */,
+				C54C2B3F5DD83CB0177D3AB0 /* Pods-RemoteBridgeTests.debug.xcconfig */,
+				9736239BECCDB593FC3E479E /* Pods-RemoteBridgeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23FD1259195B927F3B39E3F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				380102C5B86B3C733358ADD9 /* libPods-RemoteBridge.a */,
+				00226CF3A2EE458C37F5CE8A /* libPods-RemoteBridgeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD358A981CFC2CBD00AF937D = {
 			isa = PBXGroup;
 			children = (
 				AD358AA31CFC2CBD00AF937D /* RemoteBridge */,
 				AD358ABD1CFC2CBD00AF937D /* RemoteBridgeTests */,
 				AD358AA21CFC2CBD00AF937D /* Products */,
+				133FA4E0B752997D3BC616FF /* Pods */,
+				23FD1259195B927F3B39E3F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +131,12 @@
 				AD358AB21CFC2CBD00AF937D /* LaunchScreen.storyboard */,
 				AD358AB51CFC2CBD00AF937D /* Info.plist */,
 				AD358AA41CFC2CBD00AF937D /* Supporting Files */,
+				ADE616C61CFF08F4002B7F85 /* TEBackdoorInvocation.h */,
+				ADE616C71CFF08F4002B7F85 /* TEBackdoorInvocation.m */,
+				ADE616C91CFF094B002B7F85 /* TEBackdoorService.h */,
+				ADE616CA1CFF094B002B7F85 /* TEBackdoorService.m */,
+				ADE616CC1CFF0958002B7F85 /* TEBackdoorConnection.h */,
+				ADE616CD1CFF0958002B7F85 /* TEBackdoorConnection.m */,
 			);
 			path = RemoteBridge;
 			sourceTree = "<group>";
@@ -118,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD358AC31CFC2CBD00AF937D /* Build configuration list for PBXNativeTarget "RemoteBridge" */;
 			buildPhases = (
+				887DD4A0D250DF44D390B2EB /* 📦 Check Pods Manifest.lock */,
 				AD358A9D1CFC2CBD00AF937D /* Sources */,
 				AD358A9E1CFC2CBD00AF937D /* Frameworks */,
 				AD358A9F1CFC2CBD00AF937D /* Resources */,
+				CEFA48F74E2A774CBD1C78FE /* 📦 Embed Pods Frameworks */,
+				D5998C54CCAFEEB9B013D3C5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD358AC61CFC2CBD00AF937D /* Build configuration list for PBXNativeTarget "RemoteBridgeTests" */;
 			buildPhases = (
+				19BF192C342C7EAC7F71E9A9 /* 📦 Check Pods Manifest.lock */,
 				AD358AB61CFC2CBD00AF937D /* Sources */,
 				AD358AB71CFC2CBD00AF937D /* Frameworks */,
 				AD358AB81CFC2CBD00AF937D /* Resources */,
+				962D5FE160A53CE5FD2EDC94 /* 📦 Embed Pods Frameworks */,
+				039E80DBBC36CDCEE78C15F0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,12 +259,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		039E80DBBC36CDCEE78C15F0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteBridgeTests/Pods-RemoteBridgeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19BF192C342C7EAC7F71E9A9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		887DD4A0D250DF44D390B2EB /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		962D5FE160A53CE5FD2EDC94 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteBridgeTests/Pods-RemoteBridgeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFA48F74E2A774CBD1C78FE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteBridge/Pods-RemoteBridge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5998C54CCAFEEB9B013D3C5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RemoteBridge/Pods-RemoteBridge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD358A9D1CFC2CBD00AF937D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD358AAC1CFC2CBD00AF937D /* ViewController.m in Sources */,
+				ADE616CB1CFF094B002B7F85 /* TEBackdoorService.m in Sources */,
+				ADE616C81CFF08F4002B7F85 /* TEBackdoorInvocation.m in Sources */,
+				ADE616CE1CFF0958002B7F85 /* TEBackdoorConnection.m in Sources */,
 				AD358AA91CFC2CBD00AF937D /* AppDelegate.m in Sources */,
 				AD358AA61CFC2CBD00AF937D /* main.m in Sources */,
 			);
@@ -341,6 +490,7 @@
 		};
 		AD358AC41CFC2CBD00AF937D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216E9995673E08A6B158EEA7 /* Pods-RemoteBridge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RemoteBridge/Info.plist;
@@ -352,6 +502,7 @@
 		};
 		AD358AC51CFC2CBD00AF937D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7969A2FA752A36434A18D4A /* Pods-RemoteBridge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RemoteBridge/Info.plist;
@@ -363,6 +514,7 @@
 		};
 		AD358AC71CFC2CBD00AF937D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54C2B3F5DD83CB0177D3AB0 /* Pods-RemoteBridgeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RemoteBridgeTests/Info.plist;
@@ -375,6 +527,7 @@
 		};
 		AD358AC81CFC2CBD00AF937D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9736239BECCDB593FC3E479E /* Pods-RemoteBridgeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RemoteBridgeTests/Info.plist;
@@ -404,6 +557,7 @@
 				AD358AC51CFC2CBD00AF937D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD358AC61CFC2CBD00AF937D /* Build configuration list for PBXNativeTarget "RemoteBridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +566,7 @@
 				AD358AC81CFC2CBD00AF937D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
